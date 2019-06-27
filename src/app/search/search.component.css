@@ -1,0 +1,62 @@
+.principal{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin : auto;
+}
+
+.entete{
+    background-color: #3f51b5;
+    color : white;
+    height: 50px;
+    display : flex;
+    flex-direction: column;
+    margin : auto;
+}
+
+.entete p {
+    margin-left : 30px;
+}
+
+.container{
+    width: 50%;
+}
+
+.card{
+    width: 40%;
+    padding: 20px;
+}
+
+form{
+    margin-top : 30px;
+    padding: 20px;
+}
+
+mat-radio-button{
+    margin : 10px;
+}
+
+button{
+    background-color: #3f51b5;
+    color : white;
+    margin-top: 10px;
+}
+
+.example-h2 {
+    margin: 10px;
+  }
+  
+.example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+  
+.example-margin {
+    margin: 0 10px;
+}
+
+agm-map {
+    height: 300px;
+}
